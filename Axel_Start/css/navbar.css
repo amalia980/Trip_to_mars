@@ -1,0 +1,43 @@
+.topnav {
+    overflow: hidden;
+    position: relative;
+    background-color: #121212;
+  }
+  
+.topnav #myLinks {
+    display: none;
+  }
+  
+.topnav a {
+    background-color: #121212;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+.spaceship {
+  padding-left: 1rem;
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+
+
+
+  
+
+
+  
