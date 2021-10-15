@@ -58,6 +58,13 @@ form {
 
 }
 
+select {
+    width: 20rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    text-indent: 0.5rem;
+}
+
 .input {
     width: 20rem;
     height: 3rem;
