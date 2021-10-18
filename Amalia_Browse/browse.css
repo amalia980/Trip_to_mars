@@ -65,26 +65,37 @@ select {
     text-indent: 0.5rem;
 }
 
-.input {
-    width: 20rem;
-    height: 3rem;
-    text-indent: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 8px;
-    border: none;
+.date-head {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 1rem 0 0 0.5rem;
 }
 
-.inputs {
+.date-head > h6:nth-child(2) {
+    margin-left: 6.5rem;
+}
+
+.input-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs-dates {
     width: 9.5rem;
     height: 3rem;
     margin-bottom: 1rem;
     border-radius: 8px;
     border: none;
-    text-indent: 1rem;
+    text-indent: 0.6rem;
 }
 
-.inputs:nth-child(2) {
+.inputs-dates:nth-child(2) {
     margin-left: 0.7rem;
+}
+
+label {
+    color: white;
 }
 
 #search-btn {
